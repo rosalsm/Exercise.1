@@ -5,14 +5,14 @@ body{
 
 main.container{
   color: white;
-  margin-left: 15%;
+  margin-left: 20%;
 }
 
 h1.title{
-  font-weight: lighter;
+  font-weight: 100;
   margin-top: 5%;
   font-size: 3em;
-  margin-left: 32%;
+  margin-left: 30%;
   margin-bottom: 10%;
 }
 section.columns{
@@ -73,13 +73,29 @@ section.columns{
     }
   }
 }
-a.link{
-  text-decoration: none;
-  color: white;
+div.link{
   border: 1px solid white;
-  margin-left: 32%;
-  margin-top: 5%;
-  font-weight: bolder;
-  padding: 5px 10px 5px 10px;
-  border-radius: 10px;
+  margin-left: 26%;
+  margin-top: 10%;
+  border-radius: 20px;
+  width: 20%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  //padding: 5px 10px 5px 10px;
+
+  a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.8em;
+  }
+}
+div.link:hover{
+  background-color: white;
+  a{
+    color: rgb(0,182,209);
+  }
 }
