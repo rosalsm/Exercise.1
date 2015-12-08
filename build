@@ -17,8 +17,10 @@ cp img/photo-1.png dist/img/photo-1.png
 cp img/photo-2.png dist/img/photo-2.png
 cp img/photo-3.png dist/img/photo-3.png
 
+echo 'Step 4: Copy all the JS'
+mkdir -p dist/js && cp -r js dist/
 
-echo 'Step 4: Copy all the `bower_components/`!'
+echo 'Step 5: Copy all the `bower_components/`!'
 
 echo 'Step 4a: Normalize the CSS...'
 mkdir -p dist/bower_components/normalize-css/
