@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync start --server --files='*.html,css/*.css,js/*.js'",
+    "start:dev": "browser-sync start --server --directory --startPath='dist/index.html'",
     "sass":"node-sass scss/main.scss css/main.css"
+
 
 
   },
