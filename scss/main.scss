@@ -7,21 +7,20 @@ main.container{
   color: white;
   margin-left: 20%;
 }
-
-h1.title{
+h1.title{  //title team
   font-weight: 200;
   margin-top: 5%;
   font-size: 2.8em;
-  margin-left: 30%;
+  margin-left: 32%;
   margin-bottom: 10%;
 }
-section.columns{
+section.columns{  //big section with images and text
   width: 100%;
   div.first{
     width: 100% * (1/4);
     display: inline-block;
     img{
-      margin-left: 17%;
+      margin-left: 20%;
       margin-bottom: -5%;
     }
     h3{
@@ -31,7 +30,7 @@ section.columns{
       text-align: center;
       //font-weight: lighter;
       font-style: italic;
-      margin-top: -9%;
+      margin-top: -8%;
       font-size: 0.9em;
     }
   }
@@ -39,7 +38,7 @@ section.columns{
     width: 100% * (1/4);
     display: inline-block;
     img{
-      margin-left: 17%;
+      margin-left: 20%;
       margin-bottom: -5%;
     }
     h3{
@@ -49,7 +48,7 @@ section.columns{
     p{
       text-align: center;
       font-style: italic;
-      margin-top: -9%;
+      margin-top: -8%;
       font-size: 0.9em;
     }
   }
@@ -57,7 +56,7 @@ section.columns{
     width: 100% * (1/4);
     display: inline-block;
     img{
-      margin-left: 17%;
+      margin-left: 20%;
       margin-bottom: -5%;
     }
     h3{
@@ -68,17 +67,18 @@ section.columns{
       text-align: center;
 
       font-style: italic;
-      margin-top: -9%;
+      margin-top: -8%;
       font-size: 0.9em;
     }
   }
-}
-div.link{
+} //end section.columns
+
+div.link{  // work with us link button
   border: 1px solid white;
-  margin-left: 26%;
+  margin-left: 27.5%;
   margin-top: 10%;
   border-radius: 20px;
-  width: 20%;
+  width: 18%;
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -95,6 +95,7 @@ div.link{
     font-family: sans-serif;
   }
 }
+
 div.link:hover{
   background-color: white;
   a{
@@ -102,7 +103,7 @@ div.link:hover{
   }
 }
 
-@media (max-width: 1024px) and (min-width: 768px){      //TABLET
+@media (max-width: 1024px) and (min-width: 768px){      //Tablet view port
 h1.title{
   margin-left: 30%;
 }
@@ -131,13 +132,13 @@ section.columns{
   }
 }
 div.link{
-  margin-left: 26%;
+  margin-left: 24%;
   width: 25%;
 }
 
-}
+} //end tablet view
 
-@media (max-width: 767px) {           //MOBILE
+@media (max-width: 767px) {           //Mobile view port
   h1.title{
     margin-left: 27%;
   }
@@ -169,5 +170,4 @@ div.link{
     margin-left: 20%;
     width: 30%;
   }
-
-}
+} //end mobile view
