@@ -101,16 +101,22 @@ div.link:hover{
 
 @media (max-width: 1024px) and (min-width: 768px){      //Tablet view port
 h1.title{
-  margin-left: 30%;
+  margin-left: 35%;
 }
 section.columns{
-  margin-left: 25%;
+  margin-left: 30%;
 
   div.first{
     display: block;
     margin-bottom: 10%;
     img{
       margin-left: 8%;
+    }
+    h3{
+      margin-left: 10%;
+    }
+    p{
+      margin-left: 5%;
     }
   }
   div.second{
@@ -119,16 +125,28 @@ section.columns{
     img{
       margin-left: 8%;
     }
+    h3{
+      margin-left: 10%;
+    }
+    p{
+      margin-left: 5%;
+    }
   }
   div.third{
     display: block;
     img{
       margin-left: 8%;
     }
+    h3{
+      margin-left: 10%;
+    }
+    p{
+      margin-left: 5%;
+    }
   }
 }
 div.link{
-  margin-left: 24%;
+  margin-left: 28%;
   width: 25%;
 }
 
