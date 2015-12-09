@@ -142,7 +142,7 @@ div.link{
     margin-left: 12%;
 
     div.first{
-      width: 40%;
+      width: 50%;
       display: block;
       margin-bottom: 10%;
       img{
@@ -150,30 +150,45 @@ div.link{
       }
       h3{
         text-align: left;
-        margin-left: 20%;
+        margin-left: 25%;
       }
       p{
-        margin-left: 20%;
+        margin-left: 5%;
       }
     }
     div.second{
-      width: 100% * (1/3);
+      width: 50%;
       display: block;
       margin-bottom: 10%;
       img{
         margin-left: -2%;
       }
+      h3{
+        text-align: left;
+        margin-left: 25%;
+      }
+      p{
+        margin-left: 5%;
+      }
     }
     div.third{
-      width: 100% * (1/3);
+      width: 50%;
       display: block;
+      margin-bottom: 10%;
       img{
         margin-left: -2%;
+      }
+      h3{
+        text-align: left;
+        margin-left: 25%;
+      }
+      p{
+        margin-left: 5%;
       }
     }
   }
   div.link{
-    margin-left: 15%;
+    margin-left: 10%;
     width: 50%;
   }
 } //end mobile view
