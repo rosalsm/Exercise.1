@@ -1,0 +1,39 @@
+echo 'Step 0: Kill ALL THE THINGS... in `dist/`'
+
+rm -rf dist/*
+
+echo 'Step 1: Copy all the HTML'
+cp index.html dist/
+
+
+echo 'Step 2: Build all the Sass into CSS!'
+mkdir dist/css/
+npm run sass
+cp css/main.css dist/css/
+cp css/normalize.css dist/css
+
+echo 'Step 3: Copy img/ for the pics to show'
+mkdir dist/img/
+cp img/photo-1.png dist/img/photo-1.png
+cp img/photo-2.png dist/img/photo-2.png
+cp img/photo-3.png dist/img/photo-3.png
+
+echo 'Step 4: Copy all the JS'
+mkdir -p dist/js && cp -r js dist/
+
+echo 'Step 5: Copy all the `bower_components/`!'
+
+echo 'Step 4a: Normalize the CSS...'
+mkdir -p dist/bower_components/normalize-css/
+cp bower_components/normalize-css/normalize.css dist/bower_components/normalize-css/normalize.css
+
+mkdir -p dist/bower_components/jquery/dist/
+cp bower_components/jquery/dist/jquery.js dist/bower_components/jquery/dist/jquery.js
+
+mkdir -p dist/bower_components/angular/
+cp bower_components/angular/angular.js dist/bower_components/angular/angular.js
+
+mkdir -p dist/bower_components/angular-route/
+cp bower_components/angular-route/angular-route.js dist/bower_components/angular-route/angular-route.js
+
+npm run start:dev
