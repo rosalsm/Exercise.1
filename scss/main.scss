@@ -62,7 +62,6 @@ section.columns{  //big section with images and text
     }
     p{
       text-align: center;
-
       font-style: italic;
       margin-top: -8%;
       font-size: 0.9em;
@@ -140,7 +139,7 @@ div.link{
     margin-left: 27%;
   }
   section.columns{
-    margin-left: 25%;
+    margin-left: 12%;
 
     div.first{
       width: 40%;
@@ -148,6 +147,13 @@ div.link{
       margin-bottom: 10%;
       img{
         margin-left: -2%;
+      }
+      h3{
+        text-align: left;
+        margin-left: 20%;
+      }
+      p{
+        margin-left: 20%;
       }
     }
     div.second{
